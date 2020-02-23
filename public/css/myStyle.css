@@ -1,0 +1,237 @@
+.tooltip1 {
+	position: relative;
+	display: inline-block;
+	visibility: visible;
+}
+
+.tooltiptext {
+	visibility: hidden;
+	min-width: 120px;
+	width: 300px;
+	background-color: white;
+	color: #000;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	top: 150%;
+	left: 50%;
+	margin-left: -140px;
+}
+
+.tooltiptext::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+}
+
+.tooltip1:hover .tooltiptext {
+	visibility: visible;
+}
+
+.ORooltiptext {
+	visibility: hidden;
+	min-width: 120px;
+	width:auto;
+	background-color: white;
+	color: #000;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	top: 150%;
+	left: 50%;
+	margin-left: -140px;
+}
+
+.ORooltiptext::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 80%;
+	margin-left: 0px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+}
+
+.toltip1:hover .ORtooltiptext {
+	visibility: visible;
+}
+
+.custom-btn{
+	border:none; 
+	color: #171515 !important;
+	background-color: #ffffff !important;
+	border-radius: 2px;
+	padding: 6px 14px;
+}
+
+.answerBottomYesNo input[type="radio"]{
+	margin-right:10px;
+}
+
+.itemeditform .message {
+	position: relative;
+	top: auto;
+	bottom: auto;
+	left: auto;
+	z-index: 9999;
+	padding: 5px;
+	transform: none;
+}
+
+.itemeditform label {
+	display: block;
+}
+
+#iispeed_poweredby div  {
+	font-size: 10px !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#countrydiv .label-input-label{
+	width: 85%;
+}
+
+#img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+motion_countrydiv .charts-combobox input{
+	width: 85%;
+}
+
+.dataTable th, .dataTable td {
+	width: 100%;
+	font-size: 12px;
+}
+
+#Select1 {
+	width: 90%;
+}
+
+#sectorlist {
+	width: 90%;
+}
+
+#regionlist {
+	width: 90%;
+}
+
+#pestlelist {
+	width: 90%;
+}
+
+#topiclist {
+	width: 90%;
+}
+
+.buttonyear {
+	background-color: #ADD8E6;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+}
+
+.switch input {display:none;}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 13px;
+	width: 13px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: #2196F3;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(12px);
+	-ms-transform: translateX(12px);
+	transform: translateX(12px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 17px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+.cell {
+	cursor: pointer;
+}
+
+.tooltipbackground {
+	background-color: #0d0d0f;
+}
+
+.list-unstyled li{
+	float: left;
+}
+
+.chart-label {
+	position: absolute;
+	top: 0;
+	margin: 1.5rem 1rem;
+}
